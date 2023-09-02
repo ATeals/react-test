@@ -20,6 +20,7 @@ describe("Profile", () => {
         );
         utils.getByText("김민우");
         utils.getByText("24");
+        utils.getByText("24");
     });
 });
 
