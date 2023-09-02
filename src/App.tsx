@@ -1,7 +1,9 @@
+import Counter from "./Counter";
+
 const App = () => {
     return (
         <>
-            <h1>hello</h1>
+            <Counter />
         </>
     );
 };

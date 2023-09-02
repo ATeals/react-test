@@ -10,4 +10,7 @@ module.exports = {
     roots: ["<rootDir>"],
     modulePaths: [compilerOptions.baseUrl],
     moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, { prefix: "<rootDir>/" }),
+    setupFilesAfterEnv: [
+        "@testing-library/jest-dom", // jest-dom을 전역으로 선언
+    ],
 };
